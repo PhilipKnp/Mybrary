@@ -7,8 +7,11 @@
     <title>Mybrary</title>
 </head>
 <body>
-    Before
-    <br>
+    <!--To include our header from partials folder-->
+    <%- include('../partials/header.ejs') %>
+    <!--To include our errorMessage from partials folder-->
+    <%- include('../partials/errorMessage.ejs') %>
+
     <!--importing everything from views pages-->
     <%- body %>
     <br>
